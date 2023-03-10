@@ -39,7 +39,7 @@ const App = () => {
             </Link>
           </Typography>
           <Typography variant="h6" component="div" sx={{ flexGrow: .01, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
-              <Link to="/product" style={{ color: '#E1DE2B', fontWeight: 'bold' , textDecoration: 'none'}}>
+              <Link to="/RG-NFT/product" style={{ color: '#E1DE2B', fontWeight: 'bold' , textDecoration: 'none'}}>
                 Collection
               </Link>
             </Typography>
