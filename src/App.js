@@ -29,7 +29,7 @@ const theme = createTheme({
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-    <Router basename='/RG-NFT'>
+    <Router>
     <MouseGradient />
       <TransparentAppBar position="static">
         <Toolbar>
