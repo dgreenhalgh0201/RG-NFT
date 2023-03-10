@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Container, Grid, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import {Link} from 'react-router-dom';
 
 const HeroSection = styled(Grid)(({ theme }) => ({
   padding: theme.spacing(10, 0),
@@ -38,11 +39,13 @@ const ProductLandingPage = () => {
           Welcome to our upcoming retro gaming NFT collection! Our collection features unique and highly collectible NFTs based on classic gaming from the 80s and 90s. Our team of designers and developers have painstakingly recreated iconic systems from this beloved era, and turned them into one-of-a-kind digital assets that can be owned and traded by collectors and fans around the world.
           </Typography>
           <HeroButton variant="contained" color="primary" size="large">
+            <Link to ='/product' style = {{textDecoration: 'none'}}>
             Learn More
+            </Link>
           </HeroButton>
         </Grid>
         <Grid item xs={12} md={6}>
-        <HeroImage src="./product.png" alt="Product" style={{ width: '80%', height: '100%' }} />
+        <HeroImage src="./public/product.png" alt="Product" style={{ width: '80%', height: '100%' }} />
         </Grid>
       </HeroSection>
       <Container>
