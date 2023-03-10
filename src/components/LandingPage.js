@@ -45,7 +45,7 @@ const ProductLandingPage = () => {
           </HeroButton>
         </Grid>
         <Grid item xs={12} md={6}>
-        <HeroImage src="./public/product.png" alt="Product" style={{ width: '80%', height: '100%' }} />
+        <HeroImage src="/product.png" alt="Product" style={{ width: '80%', height: '100%' }} />
         </Grid>
       </HeroSection>
       <Container>

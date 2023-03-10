@@ -29,12 +29,12 @@ const theme = createTheme({
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-    <Router basename='/'>
+    <Router basename='/RG-NFT'>
     <MouseGradient />
       <TransparentAppBar position="static">
         <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: .01, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
-            <Link to="/RG-NFT" style={{ color: '#E1DE2B', textDecoration: 'none', fontWeight: 'bold' }}>
+            <Link to="/" style={{ color: '#E1DE2B', textDecoration: 'none', fontWeight: 'bold' }}>
               RG NFT
             </Link>
           </Typography>
