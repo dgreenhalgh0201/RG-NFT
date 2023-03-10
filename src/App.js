@@ -29,7 +29,6 @@ const theme = createTheme({
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-    <Router>
     <MouseGradient />
       <TransparentAppBar position="static">
         <Toolbar>
@@ -53,7 +52,6 @@ const App = () => {
           </Routes>
         </Container>
       </div>
-    </Router>
     </ThemeProvider>
   );
 };
