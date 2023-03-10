@@ -49,7 +49,7 @@ const App = () => {
         <Container sx={{ marginTop: '2rem' }}>
           <Routes>
             <Route path="/RG-NFT" element={<ProductLandingPage paragraphStyles={BoldParagraph}/>} />
-            <Route path="/product" element={<ProductPage paragraphStyles={BoldParagraph}/>} />
+            <Route path="/RG-NFT/product" element={<ProductPage paragraphStyles={BoldParagraph}/>} />
           </Routes>
         </Container>
       </div>

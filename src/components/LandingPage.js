@@ -39,7 +39,7 @@ const ProductLandingPage = () => {
           Welcome to our upcoming retro gaming NFT collection! Our collection features unique and highly collectible NFTs based on classic gaming from the 80s and 90s. Our team of designers and developers have painstakingly recreated iconic systems from this beloved era, and turned them into one-of-a-kind digital assets that can be owned and traded by collectors and fans around the world.
           </Typography>
           <HeroButton variant="contained" color="primary" size="large">
-            <Link to ='/product' style = {{textDecoration: 'none'}}>
+            <Link to ='/RG-NFT/product' style = {{textDecoration: 'none'}}>
             Learn More
             </Link>
           </HeroButton>
