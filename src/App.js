@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes, Link } from 'react-router-dom';
 import { AppBar, Container, Toolbar, Typography } from '@mui/material';
 import ProductLandingPage from './components/LandingPage';
 import MouseGradient from './components/MouseGradient';
@@ -38,7 +38,7 @@ const App = () => {
             </Link>
           </Typography>
           <Typography variant="h6" component="div" sx={{ flexGrow: .01, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
-              <Link to="/RG-NFT/product" style={{ color: '#E1DE2B', fontWeight: 'bold' , textDecoration: 'none'}}>
+              <Link to="/product" style={{ color: '#E1DE2B', fontWeight: 'bold' , textDecoration: 'none'}}>
                 Collection
               </Link>
             </Typography>
@@ -48,7 +48,7 @@ const App = () => {
         <Container sx={{ marginTop: '2rem' }}>
           <Routes>
             <Route path="/" element={<ProductLandingPage paragraphStyles={BoldParagraph}/>} />
-            <Route path="/RG-NFT/product" element={<ProductPage paragraphStyles={BoldParagraph}/>} />
+            <Route path="/product" element={<ProductPage paragraphStyles={BoldParagraph}/>} />
           </Routes>
         </Container>
       </div>
