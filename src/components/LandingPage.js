@@ -11,6 +11,7 @@ const HeroSection = styled(Grid)(({ theme }) => ({
 
 export const HeroButton = styled(Button)(({ theme }) => ({
   marginTop: theme.spacing(2),
+  marginBottom: theme.spacing(4),
   padding: theme.spacing(1, 4),
   background: `linear-gradient(45deg, #00ffff, #ff00ff)`,
   backgroundSize: '200% 200%',

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes, Link } from 'react-router-dom';
-import { AppBar, Container, Toolbar, Typography } from '@mui/material';
+import { AppBar, Container, Toolbar, Typography, useMediaQuery } from '@mui/material';
 import ProductLandingPage from './components/LandingPage';
 import MouseGradient from './components/MouseGradient';
 import {styled} from '@mui/system';
@@ -27,12 +27,13 @@ const theme = createTheme({
 });
 
 const App = () => {
+  const matches = useMediaQuery('(max-width:600px)');
   return (
     <ThemeProvider theme={theme}>
     <MouseGradient />
       <TransparentAppBar position="static">
         <Toolbar>
-        <Typography variant="h6" component="div" sx={{ flexGrow: .01, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
+        <Typography variant={matches ? 'h6' : 'h4'} component="div" sx={{ flexGrow: .05, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
             <Link to="/" style={{ color: '#E1DE2B', textDecoration: 'none', fontWeight: 'bold' }}>
               RG NFT
             </Link>
