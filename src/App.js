@@ -48,7 +48,7 @@ const App = () => {
       <div style={{ position: 'relative' }}>
         <Container sx={{ marginTop: '2rem' }}>
           <Routes>
-            <Route exact path="/" element={<ProductLandingPage paragraphStyles={BoldParagraph}/>} />
+            <Route path="/RG-NFT" element={<ProductLandingPage paragraphStyles={BoldParagraph}/>} />
             <Route path="/product" element={<ProductPage />} />
           </Routes>
         </Container>
