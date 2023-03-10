@@ -32,13 +32,13 @@ const App = () => {
     <ThemeProvider theme={theme}>
     <MouseGradient />
       <TransparentAppBar position="static">
-        <Toolbar>
-        <Typography variant={matches ? 'h6' : 'h4'} component="div" sx={{ flexGrow: .05, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
+        <Toolbar sx={{ justifyContent: matches ? 'space-between' : 'flex-start' }}>
+        <Typography variant= 'h6' component="div" sx={{ flexGrow: .05, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
             <Link to="/" style={{ color: '#E1DE2B', textDecoration: 'none', fontWeight: 'bold' }}>
               RG NFT
             </Link>
           </Typography>
-          <Typography variant="h6" component="div" sx={{ flexGrow: .01, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
+          <Typography variant='h6' component="div" sx={{ flexGrow: .01, color: '#E1DE2B', fontWeight: 'bold', textShadow: `1px 1px #ff00ff, -1px -1px #ff00ff, 1px -1px #ff00ff, -1px 1px #ff00ff, 0px 0px 10px #00ffff` }}>
               <Link to="/product" style={{ color: '#E1DE2B', fontWeight: 'bold' , textDecoration: 'none'}}>
                 Collection
               </Link>
