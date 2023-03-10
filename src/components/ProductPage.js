@@ -19,31 +19,31 @@ const ProductPage = () => {
     images: [
       {
         name: 'Virtual Sunset Boulevard',
-        path: '/public/product.png',
+        path: 'product.png',
         price: 99.99,
         description: 'A retro computer system NFT project that transports viewers to a surreal world of electric hues and futuristic designs. Virtual Sunset Boulevard blends the nostalgia of the 80s with a vibrant, neon blue computer and a neon pink background to create an otherworldly ambiance.',
       },
       {
         name: 'Circuit City Nights',
-        path: '/public/product1.png',
+        path: 'product1.png',
         price: 109.99,
         description: 'A retro computer system NFT project that fuses classic and modern elements to create a surreal and electrifying ambiance. The Circuit City Nights project features a purple floor, two large black computer towers, and a screen with a teal color, against a hot pink backdrop that creates an energetic and futuristic atmosphere.',
       },
       {
         name: 'Neon Mirage',
-        path: '/public/product2.png',
+        path: 'product2.png',
         price: 89.99,
         description: 'This NFT project invites viewers into a realm of mystery and illusion. The Neon Mirage is a vaporwave-inspired retro computer system that features a dark background and a neon green computer screen, creating a surreal and dreamy atmosphere.',
       },
       {
         name: 'Digital Rainforest Symphony',
-        path: '/public/product3.png',
+        path: 'product3.png',
         price: 94.99,
         description: 'An NFT project that harmonizes the beauty of nature and the possibilities of technology. The Digital Rainforest Symphony features a unique looking computer tower from the 80s with a bright pink background and a screen built onto the face of the tower, evoking a sense of wonder and serenity in the viewer.',
       },
       {
         name: 'Virtual Sunset Boulevard',
-        path: '/public/product4.png',
+        path: 'product4.png',
         price: 119.99,
         description: 'An NFT project that takes viewers on a cinematic journey of innovation and nostalgia. The Virtual Sunset Boulevard features a retro computer system on a red floor with muted colors and accents of neon blue, set against a dark blue backdrop that evokes a sense of excitement and intrigue.',
       },
